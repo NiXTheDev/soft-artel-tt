@@ -1,5 +1,5 @@
 # soft-artel-tt
-### Note while this project can be run with node, using bun is recommended as that will work out of the box
+### Note: while this project can be run with node, using bun is recommended as that will work out of the box
 
 ## Verdict:
 None yet...
