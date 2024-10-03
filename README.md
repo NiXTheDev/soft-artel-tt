@@ -72,3 +72,15 @@ bun run app.ts
 ```bash
 node --experimental-strip-types app.ts
 ```
+
+By default, the app starts listening on port 3000, however it also reads the .env file and if that .env file has `PORT` property defined, it will use whatever port is in there, instead of the default
+The port that the app uses is also logged in the console as a link of a `http://localhost:{port}` kind
+
+Example:
+```bash
+$ bun run app.ts #No .env file exists
+> App listening at http://localhost:3000
+
+$ bun run app.ts #This time .env has "PORT = 8080" in it
+> App listening at http://localhost:8080
+```
