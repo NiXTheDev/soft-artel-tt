@@ -4,6 +4,11 @@
 ## Verdict:
 None yet...
 
+## Test task description
+https://docs.google.com/document/d/1faxxLHsQImAc9jz1nTTaabk6YGq2Dw7q9YqUPKZgyUA/edit?pli=1
+Note: i had asked if it was okay to change nestjs to express in the stack, the hiring manager said "yes, it's allowed":
+!(Screenshot)[/assets/screenshot.png]
+
 ## Installing Bun:
 ### Windows:
 ```bash
