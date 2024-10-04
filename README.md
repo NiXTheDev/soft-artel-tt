@@ -71,12 +71,14 @@ npm install
 ## To run:
 ### Bun:
 ```bash
-bun run app.ts
+bun run app-task1.ts
 ```
 ### Node:
 ```bash
-node --experimental-strip-types app.ts
+node --experimental-strip-types app-task1.ts
 ```
+
+* Note: app-task2_p*.ts doesn't require any external libraries to be run, and already include example usages inside
 
 By default, the app starts listening on port 3000, however it also reads the .env file and if that .env file has `PORT` property defined, it will use whatever port is in there, instead of the default
 The port that the app uses is also logged in the console as a link of a `http://localhost:{port}` kind
