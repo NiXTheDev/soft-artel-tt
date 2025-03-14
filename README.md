@@ -2,7 +2,7 @@
 ### Note: while this project can be run with node, using bun is recommended as that will work out of the box
 
 ## Verdict:
-None yet...
+No answer was supplied
 
 ## Test task description
 ### Task 1
